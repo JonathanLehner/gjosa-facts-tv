@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: 'GT America Extended Bold';
+  src: url("/fonts/GT-America-Extended-Bold.OTF");
+}
+
+@font-face {
+  font-family: 'GT America Extended Light';
+  src: url("/fonts/GT-America-Extended-Light.OTF");
+}
+
+@font-face {
+  font-family: 'GT America Extended Medium';
+  src: url("/fonts/GT-America-Extended-Medium.OTF");
+}
+
+@font-face {
+  font-family: 'Akkurat Light';
+  src: url("/fonts/Akkurat-Light.otf");
+}
+
+@font-face {
+  font-family: 'Akkurat Normal';
+  src: url("/fonts/Akkurat-Normal.otf");
+}
+
+html,body,#root,.App {
+  height:100%;
+}
+  
+.counter_view {
+  height: 100%;
+  width: 100%;
+  background: url("/background/Gjosa_ibis_Background-01.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter_headline {
+  font-family: 'GT America Extended Light';
+  font-size: 50px;
+  letter-spacing: -30;
+  line-height: 50px;
+  color: #80A4B4;
+  text-align: left;
+  padding: 60px;
+  width: 67%;
+}
+
+.column_container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 60px;
+  text-align: left;
+}
+
+.counter_column {
+  width: 30%;
+}
+
+.counter_equal {
+  color: #082E58;
+  font-family: 'Akkurat Light';
+  font-size: 30px;
+  margin-top: -35px;
+}
+
+.counter_text {
+  color: #082E58;
+  font-family: 'Akkurat Light';
+  font-size: 120px;
+}
+
+.counter_text_small {
+  color: #082E58;
+  font-family: 'Akkurat Light';
+  font-size: 35px;
+}
+
+.counter_textb {
+  color: #80A4B4;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+
+.counter_icon1 {
+  height: 98.55px;
+  width: 60px;
+  background: black;
+}
+
+.counter_icon1b {
+  height: 98.55px;
+  width: 75px;
+  background: black;
+}
+
+.counter_icon2 {
+  height: 100px;
+  width: 60px;
+  background: black;
+}
+
+.counter_icon2b {
+  height: 98.55px;
+  width: 80px;
+  background: black;
+}
+
+.counter_icon3 {
+  height: 100px;
+  width: 60px;
+  background: black;
+}
+
+.counter_icon3b {
+  height: 98.55px;
+  width: 75px;
+  background: black;
+}
+
+.knowledge_view {
+  height: 100%;
+  width: 100%;
+  background: url("/background/Gjosa_ibis_Background-01.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.knowledge_view {
+  display: flex;
+  flex-direction: row;
+}
+
+.text_container {
+  width: 35%;
+  text-align: left;
+  padding: 60px 60px 30px 60px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.fr_text {
+  font-family: "GT America Extended Bold";
+  color: #082E58;
+  font-size: 25px;
+}
+
+.en_text {
+  margin-top: 60px;
+  font-family: "GT America Extended Light";
+  color: #80A4B4;
+  font-size: 25px;
+}
+
+.source {
+  margin-top: 80px;
+  text-align: left;
+  color: #80A4B4;
+  margin-top: auto;
+}
+
+.illustration_container {
+  width: 70%;
+}
+
+.illustration_container img {
+  height: 100%;
+}
