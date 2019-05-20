@@ -21,5 +21,8 @@ sudo apt-get install -y nodejs
 https://www.raspberrypi.org/forums/viewtopic.php?t=47152 
 --> put negative overscan depending on the monitor
 https://blog.gordonturner.com/2017/12/10/raspberry-pi-full-screen-browser-raspbian-december-2017/
+https://raspberrypi.stackexchange.com/questions/8734/execute-script-on-start-up
 
-chromium-browser --start-fullscreen http://localhost:5000
+# gives a 404 error: @serve -s build
+@cd pathtoproject && npm run start
+@chromium-browser --start-fullscreen http://localhost:3000
