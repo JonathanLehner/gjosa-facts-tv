@@ -44,7 +44,7 @@ html,body,#root,.App {
 .counter_view {
   height: 100%;
   width: 100%;
-  background: url("/background/16052019_Gjosa_Rebranding_IBISExperience_TVScreen_FirstScreenBackground_Whitoutnumbers-01.jpg") no-repeat center center fixed;
+  background: url("/background/16052019_Gjosa_Rebranding_IBISExperience_TVScreen_FirstScreenBackground_Whitoutnumbers-01.png") no-repeat center center fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -83,54 +83,63 @@ html,body,#root,.App {
   color: #082E58;
   font-family: 'Akkurat Light';
   font-size: 120px;
+  margin-top: 240px;
 }
 
 .counter_text_small {
   color: #082E58;
   font-family: 'Akkurat Light';
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .counter_textb {
   color: #80A4B4;
   padding: 15px 5px;
-  font-size: 30px;
+  font-size: 65px;
+  margin-top: 100px;
+  text-align: right;
 }
 
 .counter_icon1 {
   height: 98.55px;
   width: 60px;
   background: black;
+  visibility: hidden;
 }
 
 .counter_icon1b {
   height: 98.55px;
   width: 75px;
   background: black;
+  visibility: hidden;
 }
 
 .counter_icon2 {
   height: 100px;
   width: 60px;
   background: black;
+  visibility: hidden;
 }
 
 .counter_icon2b {
   height: 98.55px;
   width: 80px;
   background: black;
+  visibility: hidden;
 }
 
 .counter_icon3 {
   height: 100px;
   width: 60px;
   background: black;
+  visibility: hidden;
 }
 
 .counter_icon3b {
   height: 98.55px;
   width: 75px;
   background: black;
+  visibility: hidden;
 }
 
 .knowledge_view {
@@ -148,25 +157,26 @@ html,body,#root,.App {
 }
 
 .text_container {
-  width: 35%;
+  width: 40%;
   text-align: left;
-  padding: 60px 60px 50px 60px;
+  padding: 80px 60px 50px 80px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
 }
 
 .fr_text {
+  margin-top: 10px;
   font-family: "GT America Extended Bold";
   color: #082E58;
-  font-size: 25px;
+  font-size: 38px;
 }
 
 .en_text {
   margin-top: 60px;
   font-family: "GT America Extended Light";
   color: #80A4B4;
-  font-size: 25px;
+  font-size: 38px;
 }
 
 .source {
@@ -174,6 +184,7 @@ html,body,#root,.App {
   text-align: left;
   color: #80A4B4;
   margin-top: auto;
+  font-size: 20px;
 }
 
 .illustration_container {

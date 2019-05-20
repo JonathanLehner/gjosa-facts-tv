@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 const keyboardJS = require('keyboardjs')
 const facts = require('./facts.json');
@@ -91,17 +91,17 @@ function CounterView(props){
 
   return(
     <div className="counter_view">
-        <div className="counter_headline">À aujourd'hui, grâce à vous, nous avons économisé:</div>
+        <div className="counter_headline">{/*À aujourd'hui, grâce à vous, nous avons économisé:*/}</div>
         <div className="column_container">
           <div className="counter_column">
             <div className="counter_icon1"></div>
             <div className="counter_text">
               {water}<span className="counter_text_small">litres</span>
             </div>
-            <div className="counter_equal">=</div>
+            <div className="counter_equal">{/*=*/}</div>
             <div className="counter_icon1b"></div>
-            <div className="counter_textb">
-              {car_wash} lavages auto
+            <div className="counter_textb" style={{marginRight: "440px"}}>
+              {car_wash}
             </div>
           </div>
 
@@ -110,10 +110,10 @@ function CounterView(props){
             <div className="counter_text">
               {energy}<span className="counter_text_small">kWh</span>
             </div>
-            <div className="counter_equal">=</div>
+            <div className="counter_equal">{/*=*/}</div>
             <div className="counter_icon2b"></div>
-            <div className="counter_textb">
-              {swiss_household} foyers Suisses/ an
+            <div className="counter_textb" style={{marginRight: "450px"}}>
+              {swiss_household}
             </div>
           </div>
 
@@ -122,10 +122,10 @@ function CounterView(props){
             <div className="counter_text">
               {co2}<span className="counter_text_small">kg</span>
             </div>
-            <div className="counter_equal">=</div>
+            <div className="counter_equal">{/*=*/}</div>
             <div className="counter_icon3b"></div>
-            <div className="counter_textb">
-              {return_flights} vols d’avion
+            <div className="counter_textb" style={{marginRight: "470px"}}>
+              {return_flights}
             </div>
           </div>
         </div>
