@@ -60,12 +60,12 @@ class App extends React.Component {
     const current_fact = this.state.current_fact;
 
     const time = this.state.current_time;
-    const water = Math.round(consumption_data["water"] * time);
-    const energy = Math.round(consumption_data["energy"] * time);
-    const co2 = Math.round(consumption_data["co2"] * time);
-    const car_wash = Math.round(consumption_data["car_wash"] * time);
-    const swiss_household = Math.round(consumption_data["swiss_household"] * time);
-    const return_flights = Math.round(consumption_data["return_flights"] * time);
+    const water = Math.min(Math.round(consumption_data["water"] * time), 999999);
+    const energy = Math.min(Math.round(consumption_data["energy"] * time), 999999);
+    const co2 = Math.min(Math.round(consumption_data["co2"] * time), 999999);
+    const car_wash = Math.min(Math.round(consumption_data["car_wash"] * time), 9999);
+    const swiss_household = Math.min(Math.round(consumption_data["swiss_household"] * time), 9999);
+    const return_flights = Math.min(Math.round(consumption_data["return_flights"] * time), 9999);
 
     return (
       <div className="App">
@@ -100,7 +100,7 @@ function CounterView(props){
             </div>
             <div className="counter_equal">{/*=*/}</div>
             <div className="counter_icon1b"></div>
-            <div className="counter_textb" style={{marginRight: "440px"}}>
+            <div className="counter_textb" style={{marginRight: "430px"}}>
               {car_wash}
             </div>
           </div>
@@ -112,7 +112,7 @@ function CounterView(props){
             </div>
             <div className="counter_equal">{/*=*/}</div>
             <div className="counter_icon2b"></div>
-            <div className="counter_textb" style={{marginRight: "450px"}}>
+            <div className="counter_textb" style={{marginRight: "445px"}}>
               {swiss_household}
             </div>
           </div>

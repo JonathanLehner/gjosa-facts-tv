@@ -70,6 +70,7 @@ html,body,#root,.App {
 
 .counter_column {
   width: 30%;
+  position: relative;
 }
 
 .counter_equal {
@@ -98,6 +99,9 @@ html,body,#root,.App {
   font-size: 65px;
   margin-top: 100px;
   text-align: right;
+  position: absolute;
+  width: 500px;
+  right: 5px;
 }
 
 .counter_icon1 {
