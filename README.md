@@ -15,4 +15,7 @@ serve -s build
 On raspberry pi:
 To change the resolution, run the command sudo raspi-config , navigate to Advanced Options > Resolution, and choose an option.
 
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 chromium-browser --start-fullscreen http://localhost:5000
