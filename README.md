@@ -24,5 +24,7 @@ https://blog.gordonturner.com/2017/12/10/raspberry-pi-full-screen-browser-raspbi
 https://raspberrypi.stackexchange.com/questions/8734/execute-script-on-start-up
 
 # gives a 404 error: @serve -s build
-@cd pathtoproject && npm run start
+@npm start --prefix pathtoproject
 @chromium-browser --start-fullscreen http://localhost:3000
+
+# compilation can be quite slow
