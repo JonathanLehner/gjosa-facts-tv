@@ -11,3 +11,8 @@ now --name gjosa-facts-tv
 
 npm install -g serve
 serve -s build
+
+On raspberry pi:
+To change the resolution, run the command sudo raspi-config , navigate to Advanced Options > Resolution, and choose an option.
+
+chromium-browser --start-fullscreen http://localhost:5000
