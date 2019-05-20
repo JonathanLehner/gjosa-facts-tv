@@ -44,7 +44,7 @@ html,body,#root,.App {
 .counter_view {
   height: 100%;
   width: 100%;
-  background: url("/background/Gjosa_ibis_Background-01.jpg") no-repeat center center fixed;
+  background: url("/background/16052019_Gjosa_Rebranding_IBISExperience_TVScreen_FirstScreenBackground_Whitoutnumbers-01.jpg") no-repeat center center fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -150,7 +150,7 @@ html,body,#root,.App {
 .text_container {
   width: 35%;
   text-align: left;
-  padding: 60px 60px 30px 60px;
+  padding: 60px 60px 50px 60px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -170,7 +170,7 @@ html,body,#root,.App {
 }
 
 .source {
-  margin-top: 80px;
+  margin-top: 60px;
   text-align: left;
   color: #80A4B4;
   margin-top: auto;

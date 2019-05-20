@@ -8,3 +8,6 @@ deployment to Zeit:
 npm run build
 cd build
 now --name gjosa-facts-tv
+
+npm install -g serve
+serve -s build
