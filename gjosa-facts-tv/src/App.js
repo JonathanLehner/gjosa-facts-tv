@@ -28,8 +28,8 @@ class App extends React.Component {
       this.setState({current_time: new_time});
       localStorage.setItem("current_time", new_time)
 
-      // show knowledge screen every 30 seconds/15 periods
-      if(new_time % 15 === 0){
+      // show knowledge screen every 40 seconds/20 periods
+      if(new_time % 20 === 0){
         // there are 15 different images
         const new_fact = (this.state.current_fact + 1) % Object.keys(facts).length;
         console.log(new_fact)
@@ -40,7 +40,7 @@ class App extends React.Component {
       }
 
       // hide knowledge screen after 6 seconds/3 periods
-      if(new_time % 15 === 5){
+      if(new_time % 20 === 8){
         this.setState({show_knowledge: false});
       }
       console.log("tick")
