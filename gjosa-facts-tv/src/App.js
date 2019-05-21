@@ -107,7 +107,7 @@ function CounterView(props){
 
           <div className="counter_column">
             <div className="counter_icon2"></div>
-            <div className="counter_text" style={{left: "40px"}}>
+            <div className="counter_text" style={{left: "45px"}}>
               {energy}<span className="counter_text_small">kWh</span>
             </div>
             <div className="counter_equal">{/*=*/}</div>
