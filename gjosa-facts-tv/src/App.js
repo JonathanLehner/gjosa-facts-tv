@@ -29,7 +29,7 @@ class App extends React.Component {
       localStorage.setItem("current_time", new_time)
 
       // show knowledge screen every 30 seconds/15 periods
-      if(new_time % 1500 === 0){
+      if(new_time % 15 === 0){
         // there are 15 different images
         const new_fact = (this.state.current_fact + 1) % Object.keys(facts).length;
         console.log(new_fact)
@@ -95,7 +95,7 @@ function CounterView(props){
         <div className="column_container">
           <div className="counter_column">
             <div className="counter_icon1"></div>
-            <div className="counter_text" style={{left: "30px"}}>
+            <div className="counter_text" style={{left: "40px"}}>
               {water}<span className="counter_text_small">litres</span>
             </div>
             <div className="counter_equal">{/*=*/}</div>
