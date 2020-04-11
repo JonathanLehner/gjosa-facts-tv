@@ -29,7 +29,7 @@ class App extends React.Component {
       localStorage.setItem("current_time", new_time)
 
       // show knowledge screen every 40 seconds/20 periods
-      if(new_time % 20 === 0){
+      if(false && new_time % 20 === 0){
         // there are 15 different images
         const new_fact = (this.state.current_fact + 1) % Object.keys(facts).length;
         console.log(new_fact)
